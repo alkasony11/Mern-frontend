@@ -21,7 +21,7 @@ function AddProperty() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/iteminsert",property)
+      await axios.post("https://mern2-g07c.onrender.com/iteminsert",property)
       alert("Property added successfully")
       setProperty({
         title: "",
