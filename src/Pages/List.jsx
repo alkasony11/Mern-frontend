@@ -11,7 +11,7 @@ const List = () => {
 
     const fetchProperties = async () => {
         try {
-            const response = await axios.get("http://localhost:3000/iteminsert");
+            const response = await axios.get("https://mern2-g07c.onrender.com/iteminsert");
             setProperties(response.data);
         } catch (error) {
             console.error("Error fetching properties:", error);
