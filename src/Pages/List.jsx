@@ -7,7 +7,7 @@ const List = () => {
 
     useEffect(() => {
         fetchProperties();
-    });
+    },[properties]);
 
     const fetchProperties = async () => {
         try {
