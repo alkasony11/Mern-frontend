@@ -1,0 +1,87 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for property listings */
+.listings-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* No properties message */
+.no-properties {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Property card container */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual property card */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  padding: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Property title */
+.card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Property description */
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Strong text inside cards */
+.card strong {
+  color: #000;
+}
+
+/* Price Styling */
+.card p strong:last-child {
+  color: #4CAF50; /* Green for price */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .property-list {
+      flex-direction: column;
+      align-items: center;
+  }
+}

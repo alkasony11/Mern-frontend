@@ -1,0 +1,50 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Lighter background for a clean, modern look */
+  }
+  
+  /* Home page container */
+  .home-container {
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Heading styling */
+  .home-title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #2c3e50; /* Darker color for contrast */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Subheading styling */
+  .home-description {
+    font-size: 1.3em;
+    color: #7f8c8d; /* A lighter gray for the description */
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  /* Additional styling for responsiveness */
+  @media (max-width: 768px) {
+    .home-title {
+      font-size: 2.2em;
+    }
+    .home-description {
+      font-size: 1.1em;
+    }
+  }
+  
